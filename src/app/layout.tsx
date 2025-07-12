@@ -5,7 +5,7 @@ import AOSWrapper from '@/components/AOSWrapper';
 import CustomCursor from '@/components/CustomCursor';
 
 export const metadata: Metadata = {
-  title: 'My Portfolio',
+  title: 'Adi',
   description: 'Created with Next.js and Tailwind CSS',
 }
 

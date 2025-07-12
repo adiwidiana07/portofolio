@@ -8,19 +8,19 @@ const projects = [
     title: 'Web-Online Course',
     description: 'Online Course Website With Html Css Js.',
     image: '/project1.jpg',
-    link: 'https://yourportfolio.vercel.app',
+    link: 'https://desain.digistik.id/allacademy/',
   },
   {
     title: 'Time Keeper App',
     description: 'App time-keeper With Html Css Js.',
     image: '/project2.jpg',
-    link: 'https://github.com/username/todo-app',
+    link: 'https://adiwidiana07.github.io/time-keeper/',
   },
   {
     title: 'Football Coaching App',
     description: 'Platform Football Coaching With Html Css Js.',
     image: '/project3.jpg',
-    link: 'https://github.com/username/blog-platform',
+    link: 'https://desain.digistik.id/mfc/',
   },
 ];
 
@@ -70,13 +70,7 @@ export default function ShowcaseProjects() {
                 >
                   Live Demo
                 </a>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  className="px-5 py-2 rounded-full border border-yellow-600 text-yellow-600 font-medium hover:bg-yellow-50 transition"
-                >
-                  GitHub
-                </a>
+
               </div>
             </div>
           </div>
