@@ -6,7 +6,7 @@ export default function About(){
    <section id="about" className="px-6 py-48 bg-white text-gray-900">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Teks */}
-        <div data-aos="fade-right">
+        <div data-aos="fade-up">
           <h2 className="text-3xl lg:text-6xl font-bold text-yellow-600 mb-4">
             About Me
           </h2>
@@ -16,7 +16,7 @@ export default function About(){
         </div>
 
         {/* Gambar */}
-        <div className="flex justify-center" data-aos="fade-left">
+        <div className="flex justify-center" data-aos="fade-up">
           <Image
           src="/profile.jpg" // ✅ path dari public
             alt="My Photo"
