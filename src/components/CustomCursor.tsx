@@ -35,7 +35,7 @@ export default function CustomCursor() {
       {/* Kursor utama */}
       <div
         ref={cursorRef}
-        className="fixed top-0 left-0 w-4 h-4 rounded-full bg-yellow-500 pointer-events-none z-[9999] mix-blend-difference transition-transform duration-150"
+        className="fixed top-0 left-0 w-4 h-4 rounded-full bg-yellow-500 pointer-events-none z-[9999] mix-blend-difference transition-transform duration-150 md:block"
       />
 
       {/* Trail (mengikuti dengan delay) */}
