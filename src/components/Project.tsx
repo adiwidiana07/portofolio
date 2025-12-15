@@ -25,6 +25,12 @@ const projects = [
     image: '/project3.jpg',
     link: 'https://desain.digistik.id/mfc/',
   },
+  {
+    title: 'Computer lab loan',
+    description: 'Platform Computer lab loan With Laravel.',
+    image: '/Project4.png',
+    link: 'https://github.com/adiwidiana07/labpplg-main',
+  },
 ];
 
 // 🔹 Komponen utama untuk menampilkan section daftar project
